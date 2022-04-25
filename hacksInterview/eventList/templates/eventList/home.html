@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% load static %}
+{% block page_content %}
+<h1>Events</h1>
+<div class="row">
+
+<!-- TODO: Create a list of projects -->
+{% for event in events %}
+    <div class="col-md-4">
+        <div class="card mb-2">
+            <img class="card-img-top" src="#">
+            <div class="card-body">
+                <h5 class="card-title">Example Title</h5>
+                <p class="card-text">Example Description</p>
+                <a href="#"
+                   class="btn btn-primary">
+                    Read More
+                </a>
+            </div>
+        </div>
+    </div>
+{% endfor %}
+</div>
+{% endblock %}
