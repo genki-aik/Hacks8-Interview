@@ -1,6 +1,6 @@
 from django.shortcuts import render
 
-from .models import Event
+# Import the model
 
 # Create your views here.
 def homePage(request):

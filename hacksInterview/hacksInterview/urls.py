@@ -16,9 +16,8 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from eventList import views as eventList_views
+# Import view
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', eventList_views.homePage, name='home')
 ]
