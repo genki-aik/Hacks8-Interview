@@ -6,5 +6,6 @@ class Event(models.Model):
     image = models.ImageField(upload_to='project_image', default='default.jpg')
 
     # TODO: Add field for description and migrate it (Textfield)
+    description = models.TextField()
 
     # TODO: If they can, implement __str__ function for admin site display
